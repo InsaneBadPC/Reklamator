@@ -1,2 +1,0 @@
-# Reklamator
-Vývoj 
