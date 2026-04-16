@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozcestník Služeb</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .hover-scale { transition: transform 0.3s ease; }
+        .hover-scale:hover { transform: scale(1.02); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans h-screen m-0 p-0 overflow-hidden flex flex-col md:flex-row">
+
+    <!-- Servis Elektrokoloběžek -->
+    <a href="servis.html" class="flex-1 relative group cursor-pointer overflow-hidden block h-1/2 md:h-full">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"></div>
+        <div class="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition-colors duration-300"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center p-8 text-center text-white">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">Servis E-Mobility</h2>
+            <p class="text-xl md:text-2xl font-light opacity-90 drop-shadow">Elektrokoloběžky, elektrokola a další</p>
+            <div class="mt-8 px-6 py-3 border-2 border-white rounded-full uppercase tracking-wider text-sm font-semibold hover:bg-white hover:text-black transition-colors duration-300">
+                Vstoupit do sekce
+            </div>
+        </div>
+    </a>
+
+    <!-- Technologie bez vrásek -->
+    <a href="it-sluzby.html" class="flex-1 relative group cursor-pointer overflow-hidden block h-1/2 md:h-full">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"></div>
+        <div class="absolute inset-0 bg-blue-900/60 group-hover:bg-blue-900/50 transition-colors duration-300"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center p-8 text-center text-white">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">Technologie bez vrásek</h2>
+            <p class="text-xl md:text-2xl font-light opacity-90 drop-shadow">IT služby pro lidi, podnikatele a malé firmy</p>
+            <div class="mt-8 px-6 py-3 border-2 border-white rounded-full uppercase tracking-wider text-sm font-semibold hover:bg-white hover:text-blue-900 transition-colors duration-300">
+                Vstoupit do sekce
+            </div>
+        </div>
+    </a>
+
+</body>
+</html>
